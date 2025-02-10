@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoiseFree Audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>NoiseFree Audio</h1>
+        <p>Remove background noise and enhance audio quality.</p>
+
+        <label class="upload-section" for="audioFile">
+            <p>Click to Upload Audio</p>
+            <input type="file" id="audioFile" accept="audio/*">
+        </label>
+
+        <button class="btn" onclick="processAudio()">Remove Noise</button>
+
+        <div class="download-link" id="downloadSection">
+            <p>Download Processed Audio:</p>
+            <a href="#" id="downloadLink">Click Here</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
